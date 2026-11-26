@@ -1,0 +1,102 @@
+[
+  {
+    "id": "rv1909",
+    "lang": "es",
+    "name": "Reina-Valera",
+    "year": "1909",
+    "publisher": "eBible.org (digital)",
+    "license": "Public domain",
+    "rights": "https://ebible.org/details.php?id=spaRV1909",
+    "website": "https://ebible.org/",
+    "source": "https://github.com/seven1m/open-bibles/blob/8b330654ade69f7c96268c761da18dc83a1f49b7/spa-rv1909.usfx.xml"
+  },
+  {
+    "id": "bes",
+    "lang": "es",
+    "name": "Biblia en Español Sencillo",
+    "year": "2018",
+    "publisher": "AudioBiblia.org / Irma Flores",
+    "license": "CC BY 4.0",
+    "rights": "https://creativecommons.org/licenses/by/4.0/",
+    "website": "https://ebible.org/details.php?id=SPNBES",
+    "source": "https://github.com/seven1m/open-bibles/blob/8b330654ade69f7c96268c761da18dc83a1f49b7/spa-bes.usfx.xml"
+  },
+  {
+    "id": "web",
+    "lang": "en",
+    "name": "World English Bible",
+    "year": "2010",
+    "publisher": "eBible.org / Michael Paul Johnson",
+    "license": "Public domain",
+    "rights": "https://ebible.org/web/copyright.htm",
+    "website": "https://ebible.org/web/",
+    "source": "https://github.com/seven1m/open-bibles/blob/8b330654ade69f7c96268c761da18dc83a1f49b7/eng-web.usfx.xml"
+  },
+  {
+    "id": "vbl",
+    "lang": "es",
+    "name": "Versión Biblia Libre",
+    "year": "2022",
+    "publisher": "Free Bible Ministry / Jonathan Gallagher, Shelly Barrios de Avila",
+    "license": "CC BY-SA 4.0",
+    "rights": "https://creativecommons.org/licenses/by-sa/4.0/",
+    "website": "https://www.freebibleversion.org/",
+    "source": "https://github.com/seven1m/open-bibles/blob/8b330654ade69f7c96268c761da18dc83a1f49b7/spa-vbl.usfx.xml"
+  },
+  {
+    "id": "luther",
+    "lang": "de",
+    "name": "Lutherbibel",
+    "year": "1912",
+    "publisher": "FREE BIBLE SOFTWARE GROUP (digital)",
+    "license": "Public domain",
+    "rights": "https://github.com/seven1m/open-bibles/blob/8b330654ade69f7c96268c761da18dc83a1f49b7/README.md",
+    "website": "https://www.die-bibel.de/",
+    "source": "https://github.com/seven1m/open-bibles/blob/8b330654ade69f7c96268c761da18dc83a1f49b7/deu-luther1912.osis.xml"
+  },
+  {
+    "id": "martin",
+    "lang": "fr",
+    "name": "Bible David Martin",
+    "year": "1744",
+    "publisher": "GetBible (digital)",
+    "license": "Public domain",
+    "rights": "https://github.com/getbible/v2/blob/58ccb95982059a3aae36ebde2a84b99fa34742ab/translations.json",
+    "website": "https://www.biblemartin.com/",
+    "source": "https://github.com/getbible/bibles/blob/38a275eef7e15a398f6ec08239abc75ed8713456/French__Martin_(1744)__martin__LTR.txt"
+  },
+  {
+    "id": "synodal",
+    "lang": "ru",
+    "name": "Синодальный перевод",
+    "year": "1876",
+    "publisher": "GetBible / CrossWire (digital)",
+    "license": "Public domain",
+    "rights": "https://github.com/getbible/v2/blob/58ccb95982059a3aae36ebde2a84b99fa34742ab/translations.json",
+    "website": "https://www.crosswire.org/",
+    "source": "https://github.com/getbible/bibles/blob/38a275eef7e15a398f6ec08239abc75ed8713456/Russian__Synodal_Translation_(1876)__synodal__LTR.txt"
+  },
+  {
+    "id": "blivre",
+    "lang": "pt",
+    "name": "Bíblia Livre (Nestle 1904)",
+    "year": "2018",
+    "publisher": "© Diego Santos, Mario Sérgio e Marco Teles",
+    "license": "CC BY 3.0 Brasil",
+    "rights": "https://creativecommons.org/licenses/by/3.0/br/",
+    "website": "https://sites.google.com/site/biblialivre/",
+    "source": "https://github.com/blivre/BibliaLivre/releases/tag/2018.2.0"
+  },
+  {
+    "id": "bsb",
+    "lang": "en",
+    "name": "Berean Standard Bible",
+    "year": "2023",
+    "publisher": "Berean Bible Translation Committee",
+    "license": "Public domain dedication",
+    "rights": "https://berean.bible/licensing.htm",
+    "website": "https://berean.bible/",
+    "source": "https://github.com/seven1m/open-bibles/blob/8b330654ade69f7c96268c761da18dc83a1f49b7/eng-bsb.usfx.xml",
+    "purchase": "https://bereanbibles.com/shop/"
+  }
+]

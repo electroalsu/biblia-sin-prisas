@@ -1,0 +1,66 @@
+const keys = [
+  'brand','reader','tagline','channel','channelSoon','language','chooseLanguage','continue','book','chapter','first','verses',
+  'columns','textSize','smaller','larger','editionLanguage','edition','compare','previous','share','next','copy','copied',
+  'shareNative','close','video','watch','moreVideos','about','translations','publishers','contact','privacy','loading',
+  'loadError','unmapped','original','noEdition','source','license','publisher','buy','aboutText','publisherText','contactText',
+  'privacyText','scrollHint','admin','adminSetup','email','password','signIn','signOut','newVideo','edit','remove','confirmRemove',
+  'save','cancel','title','url','start','end','saved','videoError','accessDenied','translationText','copyError','adminError','videoInput',
+] as const
+
+type Dictionary = Record<(typeof keys)[number], string>
+
+const en = [
+  'Bible Without Haste','Bible reader','Read and compare Bible translations side by side.','YouTube channel','YouTube channel link coming soon','Interface language','Choose your language','Continue','Book','Chapter','From verse','Visible verses',
+  'Visible columns','Text size','Decrease text size','Increase text size','Text language','Translation','Compare translations','Previous','Share','Next','Copy link','Link copied',
+  'Share on this device','Close','Video for this passage','Watch on YouTube','More videos for this passage','About the project','Translations','Publishing partners','Contact','Privacy','Loading Scripture…',
+  'Could not load Scripture. Try refreshing the page.','No verified alignment for this verse.','Read in original numbering','No edition available in this language yet.','Digital source','License','Publisher','Buy this edition','Read and compare Bible translations freely, at your own pace.','No publishing partners have been announced.','Contact details will be published here when available.',
+  'Your reading preferences are stored in this browser. Video links take you to YouTube. If the video catalogue is enabled, it is loaded from Supabase.','Swipe to see all columns.','Owner administration','Connect Supabase to enable administration. See the setup instructions in the repository.','Email','Password','Sign in','Sign out','Add video','Edit','Delete','Delete this video?',
+  'Save','Cancel','Title','YouTube link','From verse','To verse','Video saved','The video catalogue could not be loaded.','This account does not have owner access.','The verse text is reproduced with source formatting and notes removed.','Select and copy the link manually.','The operation failed. Check the details and try again.','Enter a YouTube video link and a valid verse range in one chapter.',
+]
+const es = [
+  'Biblia sin prisas','Lector bíblico','Lee y compara traducciones de la Biblia en paralelo.','Canal de YouTube','Enlace del canal de YouTube próximamente','Idioma de la interfaz','Elige tu idioma','Continuar','Libro','Capítulo','Desde el versículo','Versículos visibles',
+  'Columnas visibles','Tamaño del texto','Reducir el texto','Aumentar el texto','Idioma del texto','Traducción','Comparar traducciones','Anterior','Compartir','Siguiente','Copiar enlace','Enlace copiado',
+  'Compartir desde este dispositivo','Cerrar','Vídeo de este pasaje','Ver en YouTube','Más vídeos de este pasaje','Sobre el proyecto','Traducciones','Editoriales colaboradoras','Contacto','Privacidad','Cargando el texto bíblico…',
+  'No se pudo cargar el texto bíblico. Actualiza la página.','Este versículo no tiene una equivalencia verificada.','Leer con la numeración original','Todavía no hay ediciones en este idioma.','Fuente digital','Licencia','Editorial','Comprar esta edición','Lee y compara traducciones de la Biblia gratis y a tu ritmo.','Todavía no se han anunciado editoriales colaboradoras.','Los datos de contacto se publicarán aquí cuando estén disponibles.',
+  'Tus preferencias de lectura se guardan en este navegador. Los enlaces de vídeo abren YouTube. Si el catálogo de vídeos está habilitado, se carga desde Supabase.','Desliza para ver todas las columnas.','Administración','Conecta Supabase para habilitar la administración. Consulta las instrucciones del repositorio.','Correo electrónico','Contraseña','Iniciar sesión','Cerrar sesión','Añadir vídeo','Editar','Eliminar','¿Eliminar este vídeo?',
+  'Guardar','Cancelar','Título','Enlace de YouTube','Desde el versículo','Hasta el versículo','Vídeo guardado','No se pudo cargar el catálogo de vídeos.','Esta cuenta no tiene acceso de propietario.','Se reproduce el texto de los versículos sin el formato ni las notas de la fuente.','Selecciona y copia el enlace manualmente.','No se pudo completar la operación. Revisa los datos e inténtalo de nuevo.','Introduce un enlace de vídeo de YouTube y un intervalo válido de un solo capítulo.',
+]
+const ru = [
+  'Библия без спешки','Чтение Библии','Читайте и сравнивайте переводы Библии в параллельных колонках.','Канал на YouTube','Ссылка на YouTube появится позже','Язык интерфейса','Выберите язык','Продолжить','Книга','Глава','Со стиха','Видимые стихи',
+  'Видимые колонки','Размер текста','Уменьшить текст','Увеличить текст','Язык текста','Перевод','Сравнение переводов','Назад','Поделиться','Далее','Копировать ссылку','Ссылка скопирована',
+  'Поделиться с устройства','Закрыть','Видео к этому отрывку','Смотреть на YouTube','Другие видео к этому отрывку','О проекте','Переводы','Издательства-партнёры','Контакты','Конфиденциальность','Загрузка библейского текста…',
+  'Не удалось загрузить текст. Обновите страницу.','Для этого стиха нет проверенного соответствия.','Читать в исходной нумерации','Изданий на этом языке пока нет.','Цифровой источник','Лицензия','Издательство','Купить это издание','Читайте и сравнивайте переводы Библии бесплатно и в удобном темпе.','Издательства-партнёры пока не объявлены.','Контактные данные появятся здесь, когда станут доступны.',
+  'Настройки чтения сохраняются в этом браузере. Ссылки на видео открывают YouTube. Если каталог видео подключён, он загружается из Supabase.','Прокрутите, чтобы увидеть все колонки.','Управление сайтом','Подключите Supabase, чтобы открыть раздел управления. Инструкция есть в репозитории.','Электронная почта','Пароль','Войти','Выйти','Добавить видео','Изменить','Удалить','Удалить это видео?',
+  'Сохранить','Отмена','Название','Ссылка на YouTube','С какого стиха','По какой стих','Видео сохранено','Не удалось загрузить каталог видео.','У этой учётной записи нет прав владельца.','Тексты стихов воспроизводятся без оформления и примечаний источника.','Выделите и скопируйте ссылку вручную.','Не удалось выполнить действие. Проверьте данные и попробуйте ещё раз.','Укажите ссылку на видео YouTube и допустимый диапазон стихов одной главы.',
+]
+const pt = [
+  'Bíblia sem pressa','Leitor da Bíblia','Leia e compare traduções da Bíblia lado a lado.','Canal no YouTube','Link do canal no YouTube em breve','Idioma da interface','Escolha o seu idioma','Continuar','Livro','Capítulo','A partir do versículo','Versículos visíveis',
+  'Colunas visíveis','Tamanho do texto','Diminuir o texto','Aumentar o texto','Idioma do texto','Tradução','Comparar traduções','Anterior','Compartilhar','Seguinte','Copiar link','Link copiado',
+  'Compartilhar deste dispositivo','Fechar','Vídeo desta passagem','Ver no YouTube','Mais vídeos desta passagem','Sobre o projeto','Traduções','Editoras parceiras','Contato','Privacidade','Carregando o texto bíblico…',
+  'Não foi possível carregar o texto. Atualize a página.','Não há correspondência verificada para este versículo.','Ler com a numeração original','Ainda não há edições neste idioma.','Fonte digital','Licença','Editora','Comprar esta edição','Leia e compare gratuitamente as traduções da Bíblia, no seu ritmo.','Ainda não foram anunciadas editoras parceiras.','Os dados de contato serão publicados quando estiverem disponíveis.',
+  'As preferências de leitura são guardadas neste navegador. Os links de vídeo abrem o YouTube. Quando habilitado, o catálogo de vídeos é carregado do Supabase.','Deslize para ver todas as colunas.','Administração','Conecte o Supabase para habilitar a administração. Consulte as instruções no repositório.','E-mail','Senha','Entrar','Sair','Adicionar vídeo','Editar','Excluir','Excluir este vídeo?',
+  'Salvar','Cancelar','Título','Link do YouTube','Do versículo','Até o versículo','Vídeo salvo','Não foi possível carregar o catálogo de vídeos.','Esta conta não tem acesso de proprietário.','O texto dos versículos é reproduzido sem a formatação e as notas da fonte.','Selecione e copie o link manualmente.','A operação falhou. Verifique os dados e tente novamente.','Insira um link de vídeo do YouTube e um intervalo válido de um único capítulo.',
+]
+const fr = [
+  'La Bible sans hâte','Lecture de la Bible','Lisez et comparez les traductions de la Bible côte à côte.','Chaîne YouTube','Lien de la chaîne YouTube bientôt disponible','Langue de l’interface','Choisissez votre langue','Continuer','Livre','Chapitre','À partir du verset','Versets visibles',
+  'Colonnes visibles','Taille du texte','Réduire le texte','Agrandir le texte','Langue du texte','Traduction','Comparer les traductions','Précédent','Partager','Suivant','Copier le lien','Lien copié',
+  'Partager depuis cet appareil','Fermer','Vidéo de ce passage','Voir sur YouTube','Autres vidéos de ce passage','À propos du projet','Traductions','Éditeurs partenaires','Contact','Confidentialité','Chargement du texte biblique…',
+  'Impossible de charger le texte biblique. Actualisez la page.','Aucune correspondance vérifiée pour ce verset.','Lire avec la numérotation d’origine','Aucune édition dans cette langue pour le moment.','Source numérique','Licence','Éditeur','Acheter cette édition','Lisez et comparez gratuitement les traductions de la Bible, à votre rythme.','Aucun éditeur partenaire n’a encore été annoncé.','Les coordonnées seront publiées ici dès qu’elles seront disponibles.',
+  'Vos préférences de lecture sont enregistrées dans ce navigateur. Les liens vidéo ouvrent YouTube. Lorsqu’il est activé, le catalogue vidéo est chargé depuis Supabase.','Faites glisser pour voir toutes les colonnes.','Administration','Connectez Supabase pour activer l’administration. Consultez les instructions dans le dépôt.','Adresse e-mail','Mot de passe','Se connecter','Se déconnecter','Ajouter une vidéo','Modifier','Supprimer','Supprimer cette vidéo ?',
+  'Enregistrer','Annuler','Titre','Lien YouTube','Du verset','Au verset','Vidéo enregistrée','Impossible de charger le catalogue vidéo.','Ce compte ne dispose pas des droits du propriétaire.','Le texte des versets est reproduit sans la mise en forme ni les notes de la source.','Sélectionnez et copiez le lien manuellement.','L’opération a échoué. Vérifiez les données et réessayez.','Indiquez un lien vidéo YouTube et une plage de versets valide dans un seul chapitre.',
+]
+const de = [
+  'Die Bibel ohne Eile','Bibelleser','Lesen und vergleichen Sie Bibelübersetzungen nebeneinander.','YouTube-Kanal','Link zum YouTube-Kanal folgt','Sprache der Oberfläche','Wählen Sie Ihre Sprache','Weiter','Buch','Kapitel','Ab Vers','Sichtbare Verse',
+  'Sichtbare Spalten','Textgröße','Text verkleinern','Text vergrößern','Textsprache','Übersetzung','Übersetzungen vergleichen','Zurück','Teilen','Weiter','Link kopieren','Link kopiert',
+  'Auf diesem Gerät teilen','Schließen','Video zu diesem Abschnitt','Auf YouTube ansehen','Weitere Videos zu diesem Abschnitt','Über das Projekt','Übersetzungen','Partnerverlage','Kontakt','Datenschutz','Bibeltext wird geladen…',
+  'Der Bibeltext konnte nicht geladen werden. Laden Sie die Seite neu.','Für diesen Vers gibt es keine geprüfte Zuordnung.','In der ursprünglichen Nummerierung lesen','In dieser Sprache ist noch keine Ausgabe verfügbar.','Digitale Quelle','Lizenz','Verlag','Diese Ausgabe kaufen','Lesen und vergleichen Sie Bibelübersetzungen kostenlos und in Ihrem Tempo.','Es wurden noch keine Partnerverlage bekannt gegeben.','Die Kontaktdaten werden hier veröffentlicht, sobald sie vorliegen.',
+  'Ihre Leseeinstellungen werden in diesem Browser gespeichert. Videolinks öffnen YouTube. Der Videokatalog wird bei aktiviertem Dienst aus Supabase geladen.','Wischen Sie, um alle Spalten zu sehen.','Verwaltung','Verbinden Sie Supabase, um die Verwaltung zu aktivieren. Die Anleitung steht im Repository.','E-Mail','Passwort','Anmelden','Abmelden','Video hinzufügen','Bearbeiten','Löschen','Dieses Video löschen?',
+  'Speichern','Abbrechen','Titel','YouTube-Link','Von Vers','Bis Vers','Video gespeichert','Der Videokatalog konnte nicht geladen werden.','Dieses Konto hat keine Inhaberrechte.','Die Verstexte werden ohne die Formatierung und Anmerkungen der Quelle wiedergegeben.','Markieren und kopieren Sie den Link manuell.','Der Vorgang ist fehlgeschlagen. Prüfen Sie die Angaben und versuchen Sie es erneut.','Geben Sie einen YouTube-Videolink und einen gültigen Versbereich innerhalb eines Kapitels ein.',
+]
+export const dictionaries = Object.fromEntries(
+  Object.entries({ en, es, ru, pt, fr, de }).map(([language, values]) => {
+    if (values.length !== keys.length) throw new Error(`Incomplete locale: ${language}`)
+    return [language, Object.fromEntries(keys.map((key, i) => [key, values[i]]))]
+  }),
+) as Record<'en' | 'es' | 'ru' | 'pt' | 'fr' | 'de', Dictionary>
+export type Messages = Dictionary
