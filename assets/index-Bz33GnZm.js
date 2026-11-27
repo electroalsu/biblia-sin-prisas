@@ -12,7 +12,7 @@
           <img class="brand-book" src="${te}" width="454" height="83" alt="">
           <span>Biblia Sin Prisas</span>
         </h1>
-        <a class="channel" href="${f(ze)}">
+        <a class="channel" target="_blank" rel="noopener noreferrer" href="${f(ze)}">
           <span class="youtube-title">${I.youtube}<span>YouTube</span></span>
           <span class="channel-slogan" lang="es">Preguntas sin vergüenza</span>
         </a>
@@ -50,7 +50,7 @@
         </table>
       </div>
       ${j.length?`<aside class="recommendations" aria-label="${r.recommendedVideo}">
-        ${j.map(b=>`<a class="recommendation" href="${f(b.url)}">
+        ${j.map(b=>`<a class="recommendation" target="_blank" rel="noopener noreferrer" href="${f(b.url)}">
           ${I.youtube}
           <strong>${r.recommendedVideo}</strong>
           <span>${f(b.title)}</span>
