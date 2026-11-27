@@ -1,0 +1,16 @@
+# Biblia Sin Prisas
+
+> Free Bible reader for side-by-side comparison of 14 editions in six languages. The catalogue has five Spanish editions, five English editions and one each in Russian, Portuguese, French and German.
+
+The reader aligns corresponding verses in up to four columns. Highlights and preferences are stored in the user's browser. Related YouTube videos are suggested when they match the passage. The reader adapts to desktop, tablet and phone screens. It requires no registration and has no third-party advertising. Interactive reading controls require JavaScript.
+
+## Platform information
+- [Biblia Sin Prisas](https://alsu-es.github.io/biblia-sin-prisas/): Main reader and statically available introduction.
+- [Español](https://alsu-es.github.io/biblia-sin-prisas/about/es.html)
+- [English](https://alsu-es.github.io/biblia-sin-prisas/about/en.html)
+- [Русский](https://alsu-es.github.io/biblia-sin-prisas/about/ru.html)
+- [Português](https://alsu-es.github.io/biblia-sin-prisas/about/pt.html)
+- [Français](https://alsu-es.github.io/biblia-sin-prisas/about/fr.html)
+- [Deutsch](https://alsu-es.github.io/biblia-sin-prisas/about/de.html)
+- [Text sources and credits](https://alsu-es.github.io/biblia-sin-prisas/text-credits.txt)
+- [Sitemap](https://alsu-es.github.io/biblia-sin-prisas/sitemap.xml)
