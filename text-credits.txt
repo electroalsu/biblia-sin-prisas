@@ -1,0 +1,128 @@
+Biblia Sin Prisas — fuentes de los textos / text credits
+
+Español
+- Santa Biblia — Reina Valera (1909): Casiodoro de Reina, Cipriano de Valera y revisores. Unbound Bible (Biola University); eBible.org para 3 Juan 1:14. https://ebible.org/details.php?id=spaRV1909
+- Santa Biblia — Reina-Valera (1865, ortografía de 2018): Reina, Valera y revisores. Módulo SpaRV1865 de CrossWire, exportado por scrollmapper. https://www.crosswire.org/sword/modules/ModInfo.jsp?modName=SpaRV1865
+- Santa Biblia libre para el mundo, borrador del 30-10-2026: David Williams y Michael Paul Johnson. USFM de eBible.org. https://ebible.org/spablm/copyright.htm
+- Santa Biblia libre Latinoamericano, borrador del 30-10-2026: proyecto Santa Biblia Libre, edición latinoamericana de eBible.org. https://ebible.org/spabll/copyright.htm
+- La Biblia en Español Sencillo — segunda edición (2026-10-30): traducción y edición de Irma Flores, AudioBiblia.org. USFM de eBible.org. https://audiobiblia.org/spabes_ab/copyright.htm
+
+English
+- American Standard Version (1901): American Revision Committee. Unbound Bible (Biola University). https://ebible.org/details.php?id=eng-asv
+- Webster’s Bible (1833): Noah Webster. Unbound Bible (Biola University). https://www.crosswire.org/sword/modules/ModInfo.jsp?modName=Webster
+- Darby Bible (1890): John Nelson Darby. Unbound Bible (Biola University). https://www.crosswire.org/sword/modules/ModInfo.jsp?modName=Darby
+- Young’s Literal Translation (1898): Robert Young and revisers. Unbound Bible (Biola University). https://www.crosswire.org/sword/modules/ModInfo.jsp?modName=YLT
+- The Emphasised Bible (1902): Joseph Bryant Rotherham. CrossWire transcription by Larry Nelson, exported by scrollmapper. https://www.crosswire.org/sword/modules/ModInfo.jsp?modName=Rotherham
+
+Русский
+- Синодальный перевод (1876): Святейший правительствующий синод. Модуль RusSynodal CrossWire, экспорт scrollmapper. https://www.crosswire.org/sword/modules/ModInfo.jsp?modName=RusSynodal
+
+Português
+- A Biblia Sagrada — Almeida Revista e Corrigida (Lisboa, 1911): João Ferreira de Almeida e revisores. Project Gutenberg n.º 62383. https://www.gutenberg.org/ebooks/62383
+
+Français
+- Louis Segond (1910) : Louis Segond et réviseurs. Unbound Bible (Biola University). https://ebible.org/details.php?id=fraLSG
+
+Deutsch
+- Lutherbibel (1912): Martin Luther und Revisionskommission. Unbound Bible (Biola University). https://ebible.org/details.php?id=deu1912
+
+
+Ediciones y archivos exactos / Exact editions and files
+
+Santa Biblia — Reina Valera (1909) [rv1909]
+Estado / Status: Public Domain.
+Archivo importado / Imported file: https://raw.githubusercontent.com/getbible/Unbound-Biola/38a275eef7e15a398f6ec08239abc75ed8713456/Spanish__Reina_Valera_%281909%29__valera__LTR.txt
+Edición de origen / Original edition: https://ebible.org/Scriptures/spaRV1909_usfm.zip
+Declaración / Rights statement: https://ebible.org/details.php?id=spaRV1909
+Historical text in the public domain in Spain and explicitly labeled public domain by eBible.org. Unbound Bible reference-normalized export. No worldwide guarantee.
+
+American Standard Version (1901) [asv1901]
+Estado / Status: Public Domain.
+Archivo importado / Imported file: https://raw.githubusercontent.com/getbible/Unbound-Biola/38a275eef7e15a398f6ec08239abc75ed8713456/English__American_Standard_Version__asv__LTR.txt
+Edición de origen / Original edition: https://ebible.org/Scriptures/eng-asv_usfm.zip
+Declaración / Rights statement: https://ebible.org/details.php?id=eng-asv
+Historical text in the public domain in Spain and explicitly labeled public domain by eBible.org. Unbound Bible reference-normalized export. No worldwide guarantee.
+
+Louis Segond (1910) [segond1910]
+Estado / Status: Public Domain.
+Archivo importado / Imported file: https://raw.githubusercontent.com/getbible/Unbound-Biola/38a275eef7e15a398f6ec08239abc75ed8713456/French__Louis_Segond_%281910%29__ls1910__LTR.txt
+Edición de origen / Original edition: https://ebible.org/Scriptures/fraLSG_usfm.zip
+Declaración / Rights statement: https://ebible.org/details.php?id=fraLSG
+Historical text in the public domain in Spain and explicitly labeled public domain by eBible.org. Unbound Bible reference-normalized export. No worldwide guarantee.
+
+Lutherbibel (1912) [luther1912]
+Estado / Status: Public Domain.
+Archivo importado / Imported file: https://raw.githubusercontent.com/getbible/Unbound-Biola/38a275eef7e15a398f6ec08239abc75ed8713456/German__Luther_%281912%29__luther1912__LTR.txt
+Edición de origen / Original edition: https://ebible.org/Scriptures/deu1912_usfm.zip
+Declaración / Rights statement: https://ebible.org/details.php?id=deu1912
+Historical text in the public domain in Spain and explicitly labeled public domain by eBible.org. Unbound Bible reference-normalized export. No worldwide guarantee.
+
+Синодальный перевод (1876) [synodal1876]
+Estado / Status: Public Domain.
+Archivo importado / Imported file: https://raw.githubusercontent.com/scrollmapper/bible_databases/59b18c5af5845728c275d5b7178ad0d024172b1f/formats/json/RusSynodal.json
+Edición de origen / Original edition: https://raw.githubusercontent.com/scrollmapper/bible_databases/59b18c5af5845728c275d5b7178ad0d024172b1f/sources/ru/RusSynodal/RusSynodal.zip
+Declaración / Rights statement: https://www.crosswire.org/sword/modules/ModInfo.jsp?modName=RusSynodal
+Historical Synodal text and public-domain SWORD module, including additional books. Public domain in Spain. No worldwide guarantee.
+
+A Biblia Sagrada — Almeida Revista e Corrigida (1911) [almeida1911]
+Estado / Status: Public Domain.
+Archivo importado / Imported file: https://raw.githubusercontent.com/GITenberg/A-Biblia-Sagrada-Contendo-o-Velho-e-o-Novo-Testamento_62383/03e78298b9f9f02dfb839df281f1c8cf4b78db49/62383-h/62383-h.htm
+Edición de origen / Original edition: https://www.gutenberg.org/files/62383/62383-h/62383-h.htm
+Declaración / Rights statement: https://www.gutenberg.org/ebooks/62383
+Historical Lisbon text in the public domain in Spain. The imported data contain only historic verse text, without Project Gutenberg wrapper or branding. No worldwide guarantee.
+
+Webster’s Bible (1833) [webster1833]
+Estado / Status: Public Domain.
+Archivo importado / Imported file: https://raw.githubusercontent.com/getbible/Unbound-Biola/38a275eef7e15a398f6ec08239abc75ed8713456/English__Webster___s_Bible__wb__LTR.txt
+Edición de origen / Original edition: https://www.crosswire.org/sword/modules/ModInfo.jsp?modName=Webster
+Declaración / Rights statement: https://www.crosswire.org/sword/modules/ModInfo.jsp?modName=Webster
+Noah Webster died in 1843. Historical 1833 text, public domain in Spain and listed in the public domain by eBible.org.
+
+Darby Bible (1890) [darby1890]
+Estado / Status: Public Domain.
+Archivo importado / Imported file: https://raw.githubusercontent.com/getbible/Unbound-Biola/38a275eef7e15a398f6ec08239abc75ed8713456/English__Darby__darby__LTR.txt
+Edición de origen / Original edition: https://www.crosswire.org/sword/modules/ModInfo.jsp?modName=Darby
+Declaración / Rights statement: https://www.crosswire.org/sword/modules/ModInfo.jsp?modName=Darby
+Full posthumous English edition published in 1890. John Nelson Darby died in 1882. Public-domain source text, with no modern additions imported.
+
+Young’s Literal Translation (1898) [ylt1898]
+Estado / Status: Public Domain.
+Archivo importado / Imported file: https://raw.githubusercontent.com/getbible/Unbound-Biola/38a275eef7e15a398f6ec08239abc75ed8713456/English__Young___s_Literal_Translation__ylt__LTR.txt
+Edición de origen / Original edition: https://www.crosswire.org/sword/modules/ModInfo.jsp?modName=YLT
+Declaración / Rights statement: https://www.crosswire.org/sword/modules/ModInfo.jsp?modName=YLT
+Third edition, 1898. Robert Young died in 1888. Public domain in Spain and listed in the public domain by eBible.org.
+
+Santa Biblia — Reina-Valera, ortografía de 2018 (1865) [rv1865]
+Estado / Status: Public Domain.
+Archivo importado / Imported file: https://raw.githubusercontent.com/scrollmapper/bible_databases/59b18c5af5845728c275d5b7178ad0d024172b1f/formats/json/SpaRV1865.json
+Edición de origen / Original edition: https://raw.githubusercontent.com/scrollmapper/bible_databases/59b18c5af5845728c275d5b7178ad0d024172b1f/sources/es/SpaRV1865/SpaRV1865.zip
+Declaración / Rights statement: https://www.crosswire.org/sword/modules/ModInfo.jsp?modName=SpaRV1865
+Historical revision, with the explicitly public-domain CrossWire transcription using the 2018 orthographic adjustments. Its publisher documents removal of obsolete accents. No claim of worldwide clearance.
+
+The Emphasised Bible — J. B. Rotherham (1902) [rotherham1902]
+Estado / Status: Public Domain.
+Archivo importado / Imported file: https://raw.githubusercontent.com/scrollmapper/bible_databases/59b18c5af5845728c275d5b7178ad0d024172b1f/formats/json/Rotherham.json
+Edición de origen / Original edition: https://raw.githubusercontent.com/scrollmapper/bible_databases/59b18c5af5845728c275d5b7178ad0d024172b1f/sources/en/Rotherham/Rotherham.zip
+Declaración / Rights statement: https://www.crosswire.org/sword/modules/ModInfo.jsp?modName=Rotherham
+Joseph Bryant Rotherham died in 1910. The full 1902 edition is in the public domain in Spain. The CrossWire transcription is also declared public domain.
+
+Santa Biblia libre para el mundo — borrador del 30-10-2026 (2026) [spablm]
+Estado / Status: Public Domain.
+Archivo importado / Imported file: https://ebible.org/Scriptures/spablm_usfm.zip
+Edición de origen / Original edition: https://ebible.org/Scriptures/spablm_usfm.zip
+Declaración / Rights statement: https://ebible.org/spablm/copyright.htm
+eBible.org marks the supplied 2026-10-30 draft as public domain. Preserve author and source attribution for use in Spain.
+
+Santa Biblia libre Latinoamericano — borrador del 30-10-2026 (2026) [spabll]
+Estado / Status: Public Domain.
+Archivo importado / Imported file: https://ebible.org/Scriptures/spabll_usfm.zip
+Edición de origen / Original edition: https://ebible.org/Scriptures/spabll_usfm.zip
+Declaración / Rights statement: https://ebible.org/spabll/copyright.htm
+eBible.org marks the supplied 2026-10-30 draft as public domain. Preserve author and source attribution for use in Spain.
+
+La Biblia en Español Sencillo — segunda edición (2026) [spabes]
+Estado / Status: Public Domain.
+Archivo importado / Imported file: https://ebible.org/Scriptures/spabes_usfm.zip
+Edición de origen / Original edition: https://ebible.org/Scriptures/spabes_usfm.zip
+Declaración / Rights statement: https://audiobiblia.org/spabes_ab/copyright.htm
+The supplied 2026-10-30 second edition is explicitly dedicated to the public domain without restrictions by AudioBiblia.org and Irma Flores. Earlier copies with the same eBible identifier are CC BY 4.0. Preserve author and source attribution for use in Spain.
