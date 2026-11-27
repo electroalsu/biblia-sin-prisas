@@ -14,7 +14,9 @@
         </h1>
         <a class="channel" target="_blank" rel="noopener noreferrer" href="${f(ze)}">
           <span class="youtube-title">${I.youtube}<span>YouTube</span></span>
-          <span class="channel-slogan" lang="es">Preguntas sin vergüenza</span>
+          <span class="channel-slogan" lang="es">
+            Preguntas sin <span class="channel-ending">vergüenza <svg class="channel-external" aria-hidden="true" viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.4" stroke-linecap="round" stroke-linejoin="round"><path d="M8 3.5H3.5v9h9V8M9.5 2.5h4v4m0-4-6 6"/></svg></span>
+          </span>
         </a>
         ${B("locale",r.interface,Object.entries(A),v.locale,!0)}
       </div>
